@@ -1,0 +1,13 @@
+[package]
+name = "azkaban-client"
+version = "0.1.0"
+authors = ["Michael Krolikowski"]
+license = "Apache-2.0"
+repository = "https://github.com/mkroli/azkaban-client"
+homepage = "https://github.com/mkroli/azkaban-client"
+documentation = "https://mkroli.github.io/azkaban-client/azkaban_client/index.html"
+
+[dependencies]
+hyper = "0.9.9"
+rustc-serialize = "0.3.19"
+url = { git = "https://github.com/servo/rust-url", tag = "v1.1.1" }
