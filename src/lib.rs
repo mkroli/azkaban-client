@@ -23,11 +23,15 @@
 //! azkaban-client = { git = "https://github.com/mkroli/azkaban-client" }
 //! ```
 //!
+//! Add the following to your crate root:
+//!
+//! ```rust
+//! extern crate azkaban_client;
+//! ```
+//!
 //! Then you can use it:
 //!
 //! ```rust,no_run
-//! extern crate azkaban_client;
-//!
 //! use ::azkaban_client::Azkaban;
 //!
 //! let azkaban = Azkaban::authenticated("http://127.0.0.1:8081", "azkaban", "azkaban").unwrap();
